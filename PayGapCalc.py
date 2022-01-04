@@ -8,6 +8,6 @@ releventPay = float(input("Enter the relevent pay: "))
 hoursWorked = float(input("Enter the hours worked: "))
 daysInPeriod = float(input("Enter the days in period 30.44 per month or 7 per week: "))
 
-payGapRate = releventPay/daysInPeriod*7/hoursWorked
+payGapRate = round(releventPay/daysInPeriod*7/hoursWorked,2)
 
 print(payGapRate)
